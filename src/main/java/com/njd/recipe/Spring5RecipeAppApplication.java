@@ -1,4 +1,4 @@
-package com.njd;
+package com.njd.recipe;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
