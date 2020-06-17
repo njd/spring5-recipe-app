@@ -1,4 +1,4 @@
-package com.njd;
+package com.njd.recipe;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
