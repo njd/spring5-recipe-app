@@ -1,12 +1,12 @@
 package com.njd.recipe.config;
 
 import org.flywaydb.core.Flyway;
+import org.h2.tools.Server;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.flyway.FlywayMigrationStrategy;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.DependsOn;
-import org.h2.tools.Server;
 
 import java.sql.SQLException;
 
