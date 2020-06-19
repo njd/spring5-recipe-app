@@ -49,7 +49,7 @@ class IndexControllerTest {
         String viewName = controller.getIndexPage(model);
         assertEquals("index", viewName);
         verify(recipeService, times(1)).getRecipes();
-        verify(model, times(1)).addAttribute(eq("recipes"), anySet());
+        verify(model, times(1)).addAttribute(eq("recipes"), anyList());
     }
 
     @Test

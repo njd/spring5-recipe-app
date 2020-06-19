@@ -2,8 +2,8 @@ package com.njd.recipe.services;
 
 import com.njd.recipe.model.Recipe;
 
-import java.util.Set;
+import java.util.List;
 
 public interface RecipeService {
-    public Set<Recipe> getRecipes();
+    public List<Recipe> getRecipes();
 }
